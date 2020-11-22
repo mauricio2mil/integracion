@@ -13,11 +13,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavegacionComponent } from './components/navegacion/navegacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalendarComponent
+    CalendarComponent,
+    NavegacionComponent
   ],
   imports: [
     BrowserModule,
