@@ -14,7 +14,7 @@ install:
 
 script:
   - npm run-script build
-  - cp index.html 404.html
+
 
 deploy:
   provider: pages
