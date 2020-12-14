@@ -1,0 +1,21 @@
+idioma: node_js 
+node_js: 
+  - "9" 
+dist: trusty 
+sudo: required
+ramas: 
+  solo: 
+  - maestro
+before_script: 
+  - npm install -g @ angular / cli
+script: 
+  - ng lint 
+  - npm ejecutar test-headless 
+  - ng build --prod --base-href https://github.com/mauricio2mil/integracion
+deploy: 
+  provider: pages 
+  skip_cleanup: true 
+  github_token: $ GITHUB_TOKEN 
+  local_dir: dist / integracion
+  en: 
+    branch: master
