@@ -44,7 +44,7 @@
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
-              "baseHref": "https://github.com/mauricio2mil/integracion/",
+              "baseHref": "https://mauricio2mil.github.io/integracion/",
               "buildOptimizer": true,
               "budgets": [
                 {
